@@ -3,9 +3,18 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+// void EnterTime(int, int);
+
 int main() {
     int hour, minute, second;
     hour = minute = second = 0;
+
+    printf("Enter the hour: ");
+    scanf("%d", &hour);
+
+    printf("Enter the minute: ");
+    scanf("%d", &minute);
+
 
     while(1) {
         system("clear");
@@ -35,11 +44,11 @@ int main() {
 
 }
 
-void EnterTime(int hour, int minute) {
-    int hour, minute;
-    printf("Enter the hour: ");
-    scanf("%d", &hour);
+// void EnterTime(int hour, int minute) {
+//     int hour, minute;
+//     printf("Enter the hour: ");
+//     scanf("%d", &hour);
 
-    printf("Enter the minute: ");
-    scanf("%d", &minute);
-}
+//     printf("Enter the minute: ");
+//     scanf("%d", &minute);
+// }
