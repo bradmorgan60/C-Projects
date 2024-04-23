@@ -28,3 +28,9 @@ typedef struct {
     int list[MAX_SIZE];
 
 } Tracking_List;
+
+typedef struct {
+    int raw_material;
+    int finished_good;
+    int semit_fg;
+} Products;
